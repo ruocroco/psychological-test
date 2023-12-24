@@ -4,7 +4,7 @@ import { fileURLToPath } from "node:url";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/vite-react-starter/",
+  base: "/psychological-test/",
   plugins: [react()],
   resolve: {
     alias: [
