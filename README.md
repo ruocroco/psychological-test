@@ -46,3 +46,4 @@ Currently, two official plugins are available:
 
 > https://progressier.com/pwa-manifest-generator
 遊戲開始
+HIIII
