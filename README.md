@@ -45,3 +45,4 @@ Currently, two official plugins are available:
 ## PWA
 
 > https://progressier.com/pwa-manifest-generator
+遊戲開始
