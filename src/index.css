@@ -2,10 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Source Han Serif TC";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/SourceHanSerifTC-Bold.otf");
+}
+
+@font-face {
+  font-family: "Source Han Serif TC";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/fonts/SourceHanSerifTC-SemiBold.otf");
+}
+
 :root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: "Source Han Serif TC", Inter, system-ui, Avenir, Helvetica, Arial,
+    sans-serif;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: 700;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
