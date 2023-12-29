@@ -13,6 +13,7 @@ import Question10 from "@/pages/Question10";
 import Question11 from "@/pages/Question11";
 import Nav from "@/components/Nav";
 import LandingPage from "@/pages/Landing";
+import Question from "@/pages/question";
 
 export default function App() {
   console.log("import.meta.env :>> ", import.meta.env);
@@ -21,6 +22,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/landing" element={<LandingPage />} />
+        <Route path="/question" element={<Question />} />
         <Route path="/question1" element={<Question1 />} />
         <Route path="/question2" element={<Question2 />} />
         <Route path="/question3" element={<Question3 />} />
