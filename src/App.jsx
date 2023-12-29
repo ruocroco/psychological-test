@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import HomePage from "@/pages/Home";
+// import HomePage from "@/pages/Home";
 import Question1 from "@/pages/Question1";
 import Question2 from "@/pages/Question2";
 import Question3 from "@/pages/Question3";
@@ -12,14 +12,15 @@ import Question9 from "@/pages/Question9";
 import Question10 from "@/pages/Question10";
 import Question11 from "@/pages/Question11";
 import Nav from "@/components/Nav";
+import LandingPage from "@/pages/Landing";
 
 export default function App() {
   console.log("import.meta.env :>> ", import.meta.env);
   return (
     <>
-      <Nav />
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/" element={<LandingPage />} />
+        <Route path="/landing" element={<LandingPage />} />
         <Route path="/question1" element={<Question1 />} />
         <Route path="/question2" element={<Question2 />} />
         <Route path="/question3" element={<Question3 />} />
