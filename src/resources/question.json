@@ -1,10 +1,10 @@
 [
   {
-    "levelBgImg": "/level-bg-1.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-1.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "地之門",
       "question": "你來到了一個被巨石包圍的神秘門扉前......",
@@ -29,11 +29,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-2.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-2.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "水之門",
       "question": "門扉通往一片神秘的地下湖泊。湖水清澈見底，中央有座小島......",
@@ -58,11 +58,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-3.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-3.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "火之挑戰",
       "question": "在小島上，你發現了一個被火焰圍繞的神殿 門口有一道火焰之謎......",
@@ -87,11 +87,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-4.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-4.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "風之謎題",
       "question": "在神殿內，你遇到了控制風的守護者。他向你提出了一個謎題......",
@@ -116,11 +116,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-5.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-5.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "地下洞穴的選擇",
       "question": "通過風之謎題後，你發現了一個通往地下的秘密通道......",
@@ -145,11 +145,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-6.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-6.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "神秘生物的遭遇",
       "question": "在洞穴中，你遇到了一種從未見過的神秘生物......",
@@ -174,11 +174,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-7.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-7.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "迷失的迷宮",
       "question": "生物引導你進入一個迷宮,每一個轉角都充滿了未知......",
@@ -203,11 +203,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-8.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-8.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "古老的占卜師",
       "question": "在迷宮的中心，你遇到了一位古老的占卜師。她提出要為你占卜......",
@@ -232,11 +232,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-9.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-9.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "遺忘之城的秘密",
       "question": "占卜師告訴你，城市中心有一個神秘的寶藏......",
@@ -261,11 +261,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-10.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-10.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "守護者的考驗",
       "question": "當你找到寶藏所在之處，一位守護者出現，提出了最後的考驗...",
@@ -290,11 +290,11 @@
     }
   },
   {
-    "levelBgImg": "/level-bg-11.png",
-    "decorationTopLineImg": "/decoration-top-line.png",
-    "decorationBottomLineImg": "/decoration-bottom-line.png",
-    "questionBlockBgImg": "/question-block-bg.png",
-    "optionBlockBgImg": "/option-block-bg.png",
+    "levelBgImg": "level-bg-11.png",
+    "decorationTopLineImg": "decoration-top-line.png",
+    "decorationBottomLineImg": "decoration-bottom-line.png",
+    "questionBlockBgImg": "question-block-bg.png",
+    "optionBlockBgImg": "option-block-bg.png",
     "story": {
       "title": "終章 神秘的門扉",
       "question": "當你找到寶藏所在之處，一位守護者出現，提出了最後的考驗...",
