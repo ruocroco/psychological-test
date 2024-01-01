@@ -2,7 +2,22 @@
 export default {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      animation: {
+        fadeIn: "fadeIn 1s ease",
+        fadeOut: "fadeOut 1s ease",
+      },
+      keyframes: {
+        fadeIn: {
+          "0%": { opacity: 0 },
+          "100%": { opacity: 1 },
+        },
+        fadeOut: {
+          "100%": { opacity: 1 },
+          "0%": { opacity: 0 },
+        },
+      },
+    },
     colors: {
       primary: "#e2d99e",
       secondary: "#60482c",

@@ -10,7 +10,7 @@ export default function Landing(props) {
   }
 
   return (
-    <div className="relative max-w-[450px] h-screen pt-[60vh] mx-auto">
+    <div className="relative max-w-[450px] h-full pt-[60vh] mx-auto">
       <img
         src={imgSrc(landingJson.landingBgImg)}
         className="absolute h-full w-full object-cover object-center inset-0"

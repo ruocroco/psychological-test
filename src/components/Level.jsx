@@ -1,10 +1,11 @@
+import { useState } from "react";
 import { imgSrc } from "@/utils/imgSrc";
 import levelsJson from "@/resources/level.json";
 
 export default function Level(props) {
   const { scores, setScores } = props ?? {};
-  if (!scores || !setScores) return null;
 
+  const [fadeIn, setFadeIn] = useState(true);
   const levelIndex = scores.reduce((sum, score) => sum + score);
   const questionNumber = "Q" + (levelIndex + 1);
   const level = levelsJson[levelIndex];
@@ -12,10 +13,18 @@ export default function Level(props) {
   const onOptionClick = (optionIndex) => {
     scores[optionIndex]++;
     setScores([...scores]);
+    setFadeIn(true);
   };
 
   return (
-    <div className="relative max-w-[450px] h-screen mx-auto flex-col flex items-center">
+    <div
+      className={`${
+        fadeIn && "animate-fadeIn"
+      } relative max-w-[450px] h-full mx-auto flex flex-col items-center`}
+      onAnimationEnd={() => {
+        setFadeIn(false);
+      }}
+    >
       <img
         src={imgSrc(level.levelBgImg)}
         className="absolute h-full w-full object-cover object-center inset-0"

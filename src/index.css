@@ -21,7 +21,8 @@
 }
 
 html,
-body {
+body,
+#root {
   height: var(--doc-height);
   position: relaitve;
   color: rgba(255, 255, 255, 0.87);

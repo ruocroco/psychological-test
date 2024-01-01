@@ -24,11 +24,11 @@ export default function Main() {
     user.name;
 
   return (
-    <div>
+    <>
       {isLanding && <Landing setScores={setScores} />}
       {isLevel && <Level scores={scores} setScores={setScores} />}
       {isName && <Name scores={scores} setUser={setUser} />}
       {isCharacter && <Character scores={scores} user={user} />}
-    </div>
+    </>
   );
 }
