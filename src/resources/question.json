@@ -1,0 +1,321 @@
+[
+  {
+    "levelBgImg": "/level-bg-1.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "地之門",
+      "question": "你來到了一個被巨石包圍的神秘門扉前......",
+      "options": [
+        {
+          "key": "A",
+          "content": "細心檢查門扉的機關和結構"
+        },
+        {
+          "key": "B",
+          "content": "思考門扉背後可能隱藏的意義"
+        },
+        {
+          "key": "C",
+          "content": "直接嘗試推開門扉，看看會發生什麼"
+        },
+        {
+          "key": "D",
+          "content": "感受門扉散發的能量，試圖與之溝通"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-2.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "水之門",
+      "question": "門扉通往一片神秘的地下湖泊。湖水清澈見底，中央有座小島......",
+      "options": [
+        {
+          "key": "A",
+          "content": "制定一個計劃，如何安全地到達小島"
+        },
+        {
+          "key": "B",
+          "content": "思考湖泊的形成和這座小島的地質特徵"
+        },
+        {
+          "key": "C",
+          "content": "激動地跳入湖中，游向小島"
+        },
+        {
+          "key": "D",
+          "content": "閉上眼，感受水的流動和它的故事"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-3.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "火之挑戰",
+      "question": "在小島上，你發現了一個被火焰圍繞的神殿 門口有一道火焰之謎......",
+      "options": [
+        {
+          "key": "A",
+          "content": "尋找一種方法來安全地熄滅火焰"
+        },
+        {
+          "key": "B",
+          "content": "分析火焰的構造，尋找通過的途徑"
+        },
+        {
+          "key": "C",
+          "content": "試圖快速衝過火焰，進入神殿"
+        },
+        {
+          "key": "D",
+          "content": "與火焰溝通，尋求它的允許進入"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-4.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "風之謎題",
+      "question": "在神殿內，你遇到了控制風的守護者。他向你提出了一個謎題......",
+      "options": [
+        {
+          "key": "A",
+          "content": "仔細聽謎題，嘗試邏輯推理解答"
+        },
+        {
+          "key": "B",
+          "content": "深入思考謎題背後的哲學意義"
+        },
+        {
+          "key": "C",
+          "content": "直覺回答，不太在意是否正確"
+        },
+        {
+          "key": "D",
+          "content": "聆聽謎題的旋律，試圖理解其深層含義"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-5.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "地下洞穴的選擇",
+      "question": "通過風之謎題後，你發現了一個通往地下的秘密通道......",
+      "options": [
+        {
+          "key": "A",
+          "content": "製作一張地圖，計劃如何探索這個洞穴"
+        },
+        {
+          "key": "B",
+          "content": "思考這個洞穴可能隱藏的秘密和歷史"
+        },
+        {
+          "key": "C",
+          "content": "激動地進入洞穴，期待未知的冒險"
+        },
+        {
+          "key": "D",
+          "content": "感受洞穴的氛圍，試圖與之建立連接"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-6.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "神秘生物的遭遇",
+      "question": "在洞穴中，你遇到了一種從未見過的神秘生物......",
+      "options": [
+        {
+          "key": "A",
+          "content": "小心翼翼地觀察它，確保安全"
+        },
+        {
+          "key": "B",
+          "content": "分析這種生物的特點，試圖了解它"
+        },
+        {
+          "key": "C",
+          "content": "與生物互動，體驗這種新奇遭遇"
+        },
+        {
+          "key": "D",
+          "content": "試圖與生物溝通，理解它的感受"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-7.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "迷失的迷宮",
+      "question": "生物引導你進入一個迷宮,每一個轉角都充滿了未知......",
+      "options": [
+        {
+          "key": "A",
+          "content": "使用已制定的策略來解決迷宮的迷惑"
+        },
+        {
+          "key": "B",
+          "content": "分析迷宮的結構，尋找出路的規律"
+        },
+        {
+          "key": "C",
+          "content": "隨意選擇方向，享受迷宮帶來的驚喜"
+        },
+        {
+          "key": "D",
+          "content": "直覺選擇方向，相信內心會指引你"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-8.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "古老的占卜師",
+      "question": "在迷宮的中心，你遇到了一位古老的占卜師。她提出要為你占卜......",
+      "options": [
+        {
+          "key": "A",
+          "content": "尊重並認真聽取占卜的結果"
+        },
+        {
+          "key": "B",
+          "content": "對占卜結果提出質疑，尋求邏輯的解釋"
+        },
+        {
+          "key": "C",
+          "content": "興奮地接受占卜，好奇結果會如何"
+        },
+        {
+          "key": "D",
+          "content": "感受占卜過程的能量，尋求內在的啟示"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-9.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "遺忘之城的秘密",
+      "question": "占卜師告訴你，城市中心有一個神秘的寶藏......",
+      "options": [
+        {
+          "key": "A",
+          "content": "制定一個計劃，詳細調查如何找到寶藏"
+        },
+        {
+          "key": "B",
+          "content": "尋找關於寶藏的歷史和背景信息"
+        },
+        {
+          "key": "C",
+          "content": "馬上出發尋找寶藏，享受尋寶的樂趣"
+        },
+        {
+          "key": "D",
+          "content": "感受尋寶過程中的冒險和可能的啟示"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-10.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "守護者的考驗",
+      "question": "當你找到寶藏所在之處，一位守護者出現，提出了最後的考驗...",
+      "options": [
+        {
+          "key": "A",
+          "content": "小心應對考驗，確保安全地通過"
+        },
+        {
+          "key": "B",
+          "content": "分析考驗的規則，尋找最有效的解決方案"
+        },
+        {
+          "key": "C",
+          "content": "直接接受考驗，期待挑戰的刺激"
+        },
+        {
+          "key": "D",
+          "content": "嘗試與守護者溝通，尋求和平"
+        }
+      ]
+    }
+  },
+  {
+    "levelBgImg": "/level-bg-11.png",
+    "decorationTopLineImg": "/decoration-top-line.png",
+    "decorationBottomLineImg": "/decoration-bottom-line.png",
+    "questionBlockBgImg": "/question-block-bg.png",
+    "optionBlockBgImg": "/option-block-bg.png",
+    "story": {
+      "title": "終章 神秘的門扉",
+      "question": "當你找到寶藏所在之處，一位守護者出現，提出了最後的考驗...",
+      "options": [
+        {
+          "key": "A",
+          "content": "謹慎地檢查門扉機關，緩慢地將其打開"
+        },
+        {
+          "key": "B",
+          "content": "深吸一口氣，感受門扉背後可能隱藏的意義"
+        },
+        {
+          "key": "C",
+          "content": "毫不猶豫地推開門扉，準備好迎接出現的挑戰"
+        },
+        {
+          "key": "D",
+          "content": "暫停，準備對策，分析門扉可能通往的地方"
+        }
+      ]
+    }
+  }
+]
