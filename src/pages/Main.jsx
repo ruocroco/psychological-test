@@ -9,6 +9,7 @@ export default function Main() {
   const [user, setUser] = useState({ name: "" });
   const [scores, setScores] = useState(null);
   console.log("scores :>> ", scores);
+  console.log("user.name :>> ", user.name);
   console.log(
     "scores?.reduce((sum, score) => sum+score) :>> ",
     scores?.reduce((sum, score) => sum + score)
@@ -17,7 +18,9 @@ export default function Main() {
   const isLevel =
     scores !== null && scores.reduce((sum, score) => sum + score) < 11;
   const isName =
-    scores !== null && scores.reduce((sum, score) => sum + score) === 11;
+    scores !== null &&
+    scores.reduce((sum, score) => sum + score) === 11 &&
+    !user.name;
   const isCharacter =
     scores !== null &&
     scores.reduce((sum, score) => sum + score) === 11 &&

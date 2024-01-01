@@ -21,6 +21,7 @@ export default {
     colors: {
       primary: "#e2d99e",
       secondary: "#60482c",
+      border: "#6d4a27",
     },
     listStyleType: {
       roman: "upper-roman",

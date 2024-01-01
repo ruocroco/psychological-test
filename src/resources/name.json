@@ -1,0 +1,9 @@
+{
+  "bgImg": "name-bg.png",
+  "decorationTopLineImg": "decoration-top-line.png",
+  "decorationBottomLineImg": "decoration-bottom-line.png",
+  "inputLabel": "請輸入你的名字",
+  "inputBgImg": "name-input-bg.png",
+  "buttonText": "看測驗結果",
+  "buttonBgImg": "button-bg.png"
+}
