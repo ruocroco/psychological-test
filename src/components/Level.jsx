@@ -37,7 +37,7 @@ export default function Level(props) {
         {level.story.title}
       </div>
       <div className="w-full absolute bottom-[60px] flex flex-col items-center">
-        <div className="flex-col relative justify-center items-stretch overflow-hidden flex aspect-[5.27] w-[90%] p-4 pb-5">
+        <div className="flex-col relative justify-center items-stretch overflow-hidden flex aspect-[5.27] w-[90%] h-[65px] p-4 pb-5">
           <img
             src={imgSrc(level.questionBlockBgImg)}
             className="absolute h-full w-full object-cover object-center inset-0"
@@ -53,7 +53,7 @@ export default function Level(props) {
           {level.story.options.map((option, index) => (
             <button
               key={option.key}
-              className="relative block w-[317px] h-[36px] border-[0.5px] pl-10 border-orange-200 cursor-pointer"
+              className="relative block w-[317px] h-[36px] border-[0.5px] pl-10 border-orange-200 cursor-pointer hover:brightness-[1.1]"
               onClick={() => onOptionClick(index)}
             >
               <img

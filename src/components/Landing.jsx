@@ -6,11 +6,11 @@ export default function Landing(props) {
   if (!setScores) return null;
 
   function begin() {
-    setScores([0, 0, 0, 0]);
+    setScores([]);
   }
 
   return (
-    <div className="relative max-w-[450px] h-full pt-[60vh] mx-auto">
+    <div className="relative max-w-[450px] h-full mx-auto">
       <img
         src={imgSrc(landingJson.landingBgImg)}
         className="absolute h-full w-full object-cover object-center inset-0"
@@ -20,16 +20,13 @@ export default function Landing(props) {
         className="aspect-[11.83] object-contain object-center w-[90%] absolute top-[12px] left-0 right-0 mx-auto"
       />
       <button
-        className="relative w-[150px] h-[50px] cursor-pointer hover:brightness-[1.05] bg-transparent mx-auto z-10 flex items-center justify-center"
+        className="relative top-[60vh] w-[150px] h-[50px] cursor-pointer hover:brightness-[1.1] block mx-auto focus-visible:outline-0"
         onClick={begin}
       >
-        <span className="relative tracking-[0.2em] text-[18px] z-10">
+        <img src={imgSrc(landingJson.buttonBgImg)} className="absolute" />
+        <span className="relative tracking-[0.2em] text-[18px] z-10 leading-[50px] text-primary">
           {landingJson.buttonText}
         </span>
-        <img
-          src={imgSrc(landingJson.buttonBgImg)}
-          className="absolute h-full w-full object-cover object-center top-0"
-        />
       </button>
       <img
         src={imgSrc(landingJson.decorationBottomLineImg)}

@@ -11,6 +11,7 @@ export default function Name(props) {
     e.preventDefault();
     setUser({ name: e.target.elements.username.value });
     // send scores and name to GA4 custom event
+    console.log("user :>> ", e.target.elements.username.value);
     console.log("scores :>> ", scores);
   };
 
@@ -48,13 +49,13 @@ export default function Name(props) {
                 type="text"
                 id="username"
                 name="username"
-                className="mt-[9px] w-[168px] rounded-[23px] border-border border-2 px-4 text-center"
+                className="mt-[9px] w-[160px] rounded-[23px] border-border border-2 px-4 text-center opacity-[0.7] focus-visible:outline-0"
               />
             </div>
           </div>
           <button
             type="submit"
-            className="relative mt-[60px] w-[150px] h-[50px] block mx-auto cursor-pointer"
+            className="relative mt-[60px] w-[150px] h-[50px] block mx-auto cursor-pointer focus-visible:outline-0"
           >
             <img
               src={imgSrc(nameJson.buttonBgImg)}
