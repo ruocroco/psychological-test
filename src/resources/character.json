@@ -1,0 +1,90 @@
+[
+  {
+    "bgImg": "character-bg-1.png",
+    "characterDescBgImg": "character-desc-bg.png",
+    "decorationTopLineImg": "decoration-top-line-2.png",
+    "decorationMiddleLineImg": "decoration-middle-line.png",
+    "decorationShartLineImg": "decoration-short-line.png",
+    "character": {
+      "shortDesc": "是【守序守護者】你在冒險中最像......",
+      "nameZh": "艾瑞登·鋼盾",
+      "nameEn": "Aeriden Steelshield",
+      "descTitle": "穩定可靠的領導者或戰士",
+      "descSubTitle": "堅守傳統和秩序",
+      "descContent": "守序守護者是極其可靠和負責任的。他們堅持傳統，尊重權威和規則。這種角色在面對困難時表現出堅韌不拔的態度，並且總是從實際出發，謹慎行事。",
+      "descContentAlign": "right",
+      "featureTitle": "行為特質",
+      "featureContent": "在團隊中，守序守護者通常是制定計劃和維持秩序的腳色，他們會仔細分析情況，確保所有決策和行動都建立在堅實的基礎之上。",
+      "primaryColorTitle": "代表色",
+      "primaryColorContent": "穩定‧信任‧智慧",
+      "greatPartnerTitle": "好夥伴",
+      "greatPartnerContent": "薩瑞斯·星隙"
+    }
+  },
+  {
+    "bgImg": "character-bg-2.png",
+    "characterDescBgImg": "character-desc-bg.png",
+    "decorationTopLineImg": "decoration-top-line-2.png",
+    "decorationMiddleLineImg": "decoration-middle-line.png",
+    "decorationShartLineImg": "decoration-short-line.png",
+    "character": {
+      "shortDesc": "是【智慧策士】你在冒險中最像......",
+      "nameZh": "薩瑞斯·星隙",
+      "nameEn": "Sareth Starrift",
+      "descTitle": "深思熟慮的法師或策略家",
+      "descSubTitle": "追求知識和創新",
+      "descContent": "智慧策士是天生的思考者和創新者，他們對新思想和挑戰抱有強烈的好奇心。這類角色擅長抽象思考，總是尋求更深層次的理解和全局的視角。",
+      "descContentAlign": "right",
+      "featureTitle": "行為特質",
+      "featureContent": "在探險中，智慧策士會用他們的智慧和直覺來解決問題，他們不滿足於表面的現象，總是試圖挖掘事物的本質。",
+      "primaryColorTitle": "代表色",
+      "primaryColorContent": "成長‧智慧‧平衡",
+      "greatPartnerTitle": "好夥伴",
+      "greatPartnerContent": "艾瑞登．鋼盾 "
+    }
+  },
+  {
+    "bgImg": "character-bg-3.png",
+    "characterDescBgImg": "character-desc-bg.png",
+    "decorationTopLineImg": "decoration-top-line-2.png",
+    "decorationMiddleLineImg": "decoration-middle-line.png",
+    "decorationShartLineImg": "decoration-short-line.png",
+    "character": {
+      "shortDesc": "是【冒險探索者】你在冒險中最像......",
+      "nameZh": "雷克斯·風行者",
+      "nameEn": "Rex Windwalker",
+      "descTitle": "活力滿滿的潛行者",
+      "descSubTitle": "喜歡冒險和體驗新事物",
+      "descContent": "冒險探索者充滿活力和熱情，他們喜歡實際行動，尋求刺激和冒險，這種角色通常非常自信，擁有很強的適應能力和現實感知力。",
+      "descContentAlign": "left",
+      "featureTitle": "行為特質",
+      "featureContent": "在旅程中，冒險探索者總是那個願意嘗試新事物，並且能迅速應對突發情況的人，他們喜歡即興行動，享受旅程帶來的每一個驚喜。",
+      "primaryColorTitle": "代表色",
+      "primaryColorContent": "熱情‧勇氣‧活力",
+      "greatPartnerTitle": "好夥伴",
+      "greatPartnerContent": "艾瑞登．鋼盾"
+    }
+  },
+  {
+    "bgImg": "character-bg-4.png",
+    "characterDescBgImg": "character-desc-bg.png",
+    "decorationTopLineImg": "decoration-top-line-2.png",
+    "decorationMiddleLineImg": "decoration-middle-line.png",
+    "decorationShartLineImg": "decoration-short-line.png",
+    "character": {
+      "shortDesc": "是【靈魂導師】你在冒險中最像......",
+      "nameZh": "伊莉亞·光織者",
+      "nameEn": "Elia Lightweaver",
+      "descTitle": "富有同情心的導師",
+      "descSubTitle": "尋求深層意義與人際和諧",
+      "descContent": "靈魂導師是深刻、理想主義的人，他們對周圍的世界充滿同情心，總是尋求更深層次的意義和人際之間的和諧。",
+      "descContentAlign": "left",
+      "featureTitle": "行為特質",
+      "featureContent": "在冒險中，靈魂導師往往是那個引導他人進行自我探索和內在成長的角色。他們擅長聆聽，能夠洞察他人的情感和需要。",
+      "primaryColorTitle": "代表色",
+      "primaryColorContent": "理想‧靈感‧慈悲",
+      "greatPartnerTitle": "好夥伴",
+      "greatPartnerContent": "雷克斯·風行者"
+    }
+  }
+]
