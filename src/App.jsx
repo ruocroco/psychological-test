@@ -1,40 +1,22 @@
 import { Routes, Route } from "react-router-dom";
-// import HomePage from "@/pages/Home";
+import Main from "@/pages/Main";
 import Question1 from "@/pages/Question1";
 import Question2 from "@/pages/Question2";
 import Question3 from "@/pages/Question3";
 import Question4 from "@/pages/Question4";
 import Question5 from "@/pages/Question5";
-import Question6 from "@/pages/Question6";
-import Question7 from "@/pages/Question7";
-import Question8 from "@/pages/Question8";
-import Question9 from "@/pages/Question9";
-import Question10 from "@/pages/Question10";
-import Question11 from "@/pages/Question11";
-import Nav from "@/components/Nav";
-import LandingPage from "@/pages/Landing";
-import Question from "@/pages/question";
 
 export default function App() {
   console.log("import.meta.env :>> ", import.meta.env);
+
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<LandingPage />} />
-        <Route path="/landing" element={<LandingPage />} />
-        <Route path="/question" element={<Question />} />
-        <Route path="/question1" element={<Question1 />} />
-        <Route path="/question2" element={<Question2 />} />
-        <Route path="/question3" element={<Question3 />} />
-        <Route path="/question4" element={<Question4 />} />
-        <Route path="/question5" element={<Question5 />} />
-        <Route path="/question6" element={<Question6 />} />
-        <Route path="/question7" element={<Question7 />} />
-        <Route path="/question8" element={<Question8 />} />
-        <Route path="/question9" element={<Question9 />} />
-        <Route path="/question10" element={<Question10 />} />
-        <Route path="/question11" element={<Question11 />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/1" element={<Question1 />} />
+      <Route path="/2" element={<Question2 />} />
+      <Route path="/3" element={<Question3 />} />
+      <Route path="/4" element={<Question4 />} />
+      <Route path="/5" element={<Question5 />} />
+    </Routes>
   );
 }
