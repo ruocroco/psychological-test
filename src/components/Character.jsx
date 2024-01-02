@@ -17,15 +17,19 @@ export default function Charactor(props) {
     <div
       className={`${
         fadeIn && "animate-fadeIn"
-      } relative max-w-[450px] h-full mx-auto flex flex-col items-center`}
+      } relative max-w-[450px] mx-auto h-screen flex flex-col items-center overflow-hidden`}
       onAnimationEnd={() => {
         setFadeIn(false);
       }}
     >
-      {/* TODO: 調整背景圖大小 */}
       <img
         src={imgSrc(character.bgImg)}
-        className="absolute h-full w-full object-cover object-center inset-0"
+        className={`absolute h-full w-full object-cover object-center inset-0 scale-110
+        ${
+          character.character.descContentAlign === "right"
+            ? "-translate-x-6"
+            : "translate-x-2"
+        }`}
       />
       <div className="relative top-[14px]">
         <div className="text-[14px] tracking-[0.1em] text-center">
@@ -85,7 +89,7 @@ export default function Charactor(props) {
         </div>
       </div>
       {/* 置底 */}
-      <div className="absolute bottom-4 w-full">
+      <div className="relative mt-auto mb-4 w-full">
         {/* 行為特質 */}
         <div className="relative">
           <img
