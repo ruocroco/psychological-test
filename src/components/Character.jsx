@@ -40,12 +40,49 @@ export default function Charactor(props) {
         />
       </div>
       {/* 角色名稱 ＋ 描述 */}
-      <div className="relative top-[40px]">
-        <div className="text-center">{character.character.nameZh}</div>
-        <div className="text-center">{character.character.nameEn}</div>
-        <div className="text-center">{character.character.descTitle}</div>
-        <div className="text-center">{character.character.descSubTitle}</div>
-        <div className="text-center">{character.character.descContent}</div>
+      <div
+        className={`relative top-[50px] w-[55%] ${
+          character.character.descContentAlign === "right"
+            ? "ml-auto mr-5"
+            : "mr-auto ml-5"
+        }`}
+      >
+        <div
+          className={`w-[182px] ${
+            character.character.descContentAlign === "right"
+              ? "float-right"
+              : "float-left"
+          }`}
+        >
+          <div className="text-[28px] text-primary text-justify">
+            {character.character.nameZh}
+          </div>
+          <div className="text-[18px] text-primary text-justify leading-[21px]">
+            {character.character.nameEn}
+          </div>
+        </div>
+        <div
+          className={`mt-[14px] relative p-3 w-[182px] h-[190px] ${
+            character.character.descContentAlign === "right"
+              ? "float-right"
+              : "float-left"
+          }`}
+        >
+          <img
+            src={imgSrc(character.characterDescBgImg)}
+            alt=""
+            className="absolute top-0 right-0"
+          />
+          <div className="text-[14px] text-primary text-center relative z-10">
+            {character.character.descTitle}
+          </div>
+          <div className="text-[14px] text-primary text-center relative z-10">
+            {character.character.descSubTitle}
+          </div>
+          <div className="mt-3 text-[12.5px] text-white text-justify relative z-10">
+            {character.character.descContent}
+          </div>
+        </div>
       </div>
       {/* 置底 */}
       <div className="absolute bottom-4 w-full">
@@ -64,19 +101,39 @@ export default function Charactor(props) {
         {/* 代表色 ＋ 好夥伴 */}
         <div className="flex justify-between px-4 mt-3">
           <div className="relative w-1/2">
+            <img
+              src={imgSrc(character.decorationShortLineImg)}
+              alt=""
+              className="absolute"
+            />
             <div className="text-center">
               {character.character.primaryColorTitle}
             </div>
-            <div className="text-center">
+            <img
+              src={imgSrc(character.character.primaryColorImg)}
+              alt=""
+              className="mt-[6px]"
+            />
+            <div className="text-center mt-[6px]">
               {character.character.primaryColorContent}
             </div>
           </div>
-          <div className="border-l border-primary mx-3"></div>
+          <div className="border-l border-primary mx-3 mt-3"></div>
           <div className="relative w-1/2">
+            <img
+              src={imgSrc(character.decorationShortLineImg)}
+              alt=""
+              className="absolute"
+            />
             <div className="text-center">
               {character.character.greatPartnerTitle}
             </div>
-            <div className="text-center">
+            <img
+              src={imgSrc(character.character.greatPartnerImg)}
+              alt=""
+              className="mt-[6px]"
+            />
+            <div className="text-center mt-[6px]">
               {character.character.greatPartnerContent}
             </div>
           </div>
